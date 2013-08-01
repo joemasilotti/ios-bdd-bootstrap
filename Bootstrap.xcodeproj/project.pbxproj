@@ -16,7 +16,67 @@
 		8432F8E217AB1FA7005C5B9C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8432F8E117AB1FA7005C5B9C /* Default.png */; };
 		8432F8E417AB1FA7005C5B9C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8432F8E317AB1FA7005C5B9C /* Default@2x.png */; };
 		8432F8E617AB1FA7005C5B9C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8432F8E517AB1FA7005C5B9C /* Default-568h@2x.png */; };
+		8432F92717AB249A005C5B9C /* libCedar-StaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8432F91E17AB2446005C5B9C /* libCedar-StaticLib.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8432F91717AB2446005C5B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8432F90B17AB2445005C5B9C /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE1FB611DC271300029872;
+			remoteInfo = Cedar;
+		};
+		8432F91917AB2446005C5B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8432F90B17AB2445005C5B9C /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE218611DC28E200029872;
+			remoteInfo = Specs;
+		};
+		8432F91B17AB2446005C5B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8432F90B17AB2445005C5B9C /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96A07F0813F276640021974D;
+			remoteInfo = FocusedSpecs;
+		};
+		8432F91D17AB2446005C5B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8432F90B17AB2445005C5B9C /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE222911DC2B0600029872;
+			remoteInfo = "Cedar-StaticLib";
+		};
+		8432F91F17AB2446005C5B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8432F90B17AB2445005C5B9C /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = AEEE227611DC2CF900029872;
+			remoteInfo = iOSSpecs;
+		};
+		8432F92117AB2446005C5B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8432F90B17AB2445005C5B9C /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96B5F9F6144A81A7000A6A5D;
+			remoteInfo = OCUnitApp;
+		};
+		8432F92317AB2446005C5B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8432F90B17AB2445005C5B9C /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96B5FA11144A81A8000A6A5D;
+			remoteInfo = OCUnitAppTests;
+		};
+		8432F92517AB2446005C5B9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8432F90B17AB2445005C5B9C /* Cedar.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 96158A86144A915E005895CE;
+			remoteInfo = OCUnitAppLogicTests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8432F8CC17AB1FA7005C5B9C /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +92,7 @@
 		8432F8E117AB1FA7005C5B9C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		8432F8E317AB1FA7005C5B9C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8432F8E517AB1FA7005C5B9C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8432F90B17AB2445005C5B9C /* Cedar.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Cedar.xcodeproj; path = cedar/Cedar.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8432F92717AB249A005C5B9C /* libCedar-StaticLib.a in Frameworks */,
 				8432F8D017AB1FA7005C5B9C /* UIKit.framework in Frameworks */,
 				8432F8D217AB1FA7005C5B9C /* Foundation.framework in Frameworks */,
 				8432F8D417AB1FA7005C5B9C /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				8432F8D517AB1FA7005C5B9C /* App */,
+				8432F90A17AB2434005C5B9C /* Externals */,
 				8432F8CE17AB1FA7005C5B9C /* Frameworks */,
 				8432F8CD17AB1FA7005C5B9C /* Products */,
 			);
@@ -99,6 +162,29 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8432F90A17AB2434005C5B9C /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				8432F90B17AB2445005C5B9C /* Cedar.xcodeproj */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		8432F90C17AB2445005C5B9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8432F91817AB2446005C5B9C /* Cedar.framework */,
+				8432F91A17AB2446005C5B9C /* Specs */,
+				8432F91C17AB2446005C5B9C /* FocusedSpecs */,
+				8432F91E17AB2446005C5B9C /* libCedar-StaticLib.a */,
+				8432F92017AB2446005C5B9C /* iOSSpecs.app */,
+				8432F92217AB2446005C5B9C /* OCUnitApp.app */,
+				8432F92417AB2446005C5B9C /* OCUnitAppTests.octest */,
+				8432F92617AB2446005C5B9C /* OCUnitAppLogicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,12 +225,77 @@
 			mainGroup = 8432F8C317AB1FA6005C5B9C;
 			productRefGroup = 8432F8CD17AB1FA7005C5B9C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8432F90C17AB2445005C5B9C /* Products */;
+					ProjectRef = 8432F90B17AB2445005C5B9C /* Cedar.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8432F8CB17AB1FA7005C5B9C /* App */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8432F91817AB2446005C5B9C /* Cedar.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Cedar.framework;
+			remoteRef = 8432F91717AB2446005C5B9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8432F91A17AB2446005C5B9C /* Specs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Specs;
+			remoteRef = 8432F91917AB2446005C5B9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8432F91C17AB2446005C5B9C /* FocusedSpecs */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = FocusedSpecs;
+			remoteRef = 8432F91B17AB2446005C5B9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8432F91E17AB2446005C5B9C /* libCedar-StaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCedar-StaticLib.a";
+			remoteRef = 8432F91D17AB2446005C5B9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8432F92017AB2446005C5B9C /* iOSSpecs.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = iOSSpecs.app;
+			remoteRef = 8432F91F17AB2446005C5B9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8432F92217AB2446005C5B9C /* OCUnitApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = OCUnitApp.app;
+			remoteRef = 8432F92117AB2446005C5B9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8432F92417AB2446005C5B9C /* OCUnitAppTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCUnitAppTests.octest;
+			remoteRef = 8432F92317AB2446005C5B9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8432F92617AB2446005C5B9C /* OCUnitAppLogicTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = OCUnitAppLogicTests.octest;
+			remoteRef = 8432F92517AB2446005C5B9C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8432F8CA17AB1FA7005C5B9C /* Resources */ = {
