@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8432F8CC17AB1FA7005C5B9C /* Bootstrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bootstrap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8432F8CC17AB1FA7005C5B9C /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8432F8CF17AB1FA7005C5B9C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8432F8D117AB1FA7005C5B9C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8432F8D317AB1FA7005C5B9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,7 +51,7 @@
 		8432F8C317AB1FA6005C5B9C = {
 			isa = PBXGroup;
 			children = (
-				8432F8D517AB1FA7005C5B9C /* Bootstrap */,
+				8432F8D517AB1FA7005C5B9C /* App */,
 				8432F8CE17AB1FA7005C5B9C /* Frameworks */,
 				8432F8CD17AB1FA7005C5B9C /* Products */,
 			);
@@ -60,7 +60,7 @@
 		8432F8CD17AB1FA7005C5B9C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8432F8CC17AB1FA7005C5B9C /* Bootstrap.app */,
+				8432F8CC17AB1FA7005C5B9C /* App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,14 +75,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8432F8D517AB1FA7005C5B9C /* Bootstrap */ = {
+		8432F8D517AB1FA7005C5B9C /* App */ = {
 			isa = PBXGroup;
 			children = (
+				8432F8D617AB1FA7005C5B9C /* Supporting Files */,
 				8432F8DE17AB1FA7005C5B9C /* ABCAppDelegate.h */,
 				8432F8DF17AB1FA7005C5B9C /* ABCAppDelegate.m */,
-				8432F8D617AB1FA7005C5B9C /* Supporting Files */,
 			);
-			path = Bootstrap;
+			path = App;
 			sourceTree = "<group>";
 		};
 		8432F8D617AB1FA7005C5B9C /* Supporting Files */ = {
@@ -96,7 +96,7 @@
 				8432F8E317AB1FA7005C5B9C /* Default@2x.png */,
 				8432F8E517AB1FA7005C5B9C /* Default-568h@2x.png */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,7 +116,7 @@
 			);
 			name = App;
 			productName = Bootstrap;
-			productReference = 8432F8CC17AB1FA7005C5B9C /* Bootstrap.app */;
+			productReference = 8432F8CC17AB1FA7005C5B9C /* App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -244,8 +244,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Bootstrap/Bootstrap-Prefix.pch";
-				INFOPLIST_FILE = "Bootstrap/Bootstrap-Info.plist";
+				GCC_PREFIX_HEADER = "App/Supporting Files/Bootstrap-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/App/Supporting Files/Bootstrap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -255,8 +255,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Bootstrap/Bootstrap-Prefix.pch";
-				INFOPLIST_FILE = "Bootstrap/Bootstrap-Info.plist";
+				GCC_PREFIX_HEADER = "App/Supporting Files/Bootstrap-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/App/Supporting Files/Bootstrap-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
