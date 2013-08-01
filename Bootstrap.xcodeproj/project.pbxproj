@@ -102,9 +102,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8432F8CB17AB1FA7005C5B9C /* Bootstrap */ = {
+		8432F8CB17AB1FA7005C5B9C /* App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8432F8E917AB1FA7005C5B9C /* Build configuration list for PBXNativeTarget "Bootstrap" */;
+			buildConfigurationList = 8432F8E917AB1FA7005C5B9C /* Build configuration list for PBXNativeTarget "App" */;
 			buildPhases = (
 				8432F8C817AB1FA7005C5B9C /* Sources */,
 				8432F8C917AB1FA7005C5B9C /* Frameworks */,
@@ -114,7 +114,7 @@
 			);
 			dependencies = (
 			);
-			name = Bootstrap;
+			name = App;
 			productName = Bootstrap;
 			productReference = 8432F8CC17AB1FA7005C5B9C /* Bootstrap.app */;
 			productType = "com.apple.product-type.application";
@@ -141,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8432F8CB17AB1FA7005C5B9C /* Bootstrap */,
+				8432F8CB17AB1FA7005C5B9C /* App */,
 			);
 		};
 /* End PBXProject section */
@@ -274,13 +274,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8432F8E917AB1FA7005C5B9C /* Build configuration list for PBXNativeTarget "Bootstrap" */ = {
+		8432F8E917AB1FA7005C5B9C /* Build configuration list for PBXNativeTarget "App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8432F8EA17AB1FA7005C5B9C /* Debug */,
 				8432F8EB17AB1FA7005C5B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
